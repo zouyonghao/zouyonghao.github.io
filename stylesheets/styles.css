@@ -338,7 +338,7 @@ footer p + p {
 }
 
 h1.blog{
-	display:relative;
+	position:relative;
 	top:10px;
 	left:10px;
 }
