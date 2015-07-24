@@ -56,19 +56,19 @@ calss Restaurant:
 首先我们需要创建数据库
 
 1. 配置代码
+
 	```python
 	import sys
 	from sqlalchemy import Column, ForeignKey, Integer, String
 	from sqlalchemy.ext.declarative import declarative_base
 	from sqlalchemy.orm import relationship
 	from sqlalchemy import create_engine
-
 	Base = declarative_base()
-
 	```
 2. 创建类
 
 	都要继承自Base，Restaurant表示餐馆
+
 	```python
 	class Restaurant(Base):
 	```
