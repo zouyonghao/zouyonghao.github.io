@@ -1,6 +1,6 @@
 ---
-layout:default
-title:hello world
+layout : default
+title : hello world
 ---
 
 Hello World!
