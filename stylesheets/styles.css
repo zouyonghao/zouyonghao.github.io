@@ -336,6 +336,13 @@ footer p + p {
     float: none;
   }
 }
+
+h1.blog{
+	display:relative;
+	top:10px;
+	left:10px;
+}
+
 @media print, screen and (max-width:580px) {
   header ul {
     display: none;
