@@ -1,4 +1,2 @@
-﻿markdown: rdiscount
-pygments: true
+markdown: rdiscount
 highlighter: pygments
-github: [Repository metadata]
