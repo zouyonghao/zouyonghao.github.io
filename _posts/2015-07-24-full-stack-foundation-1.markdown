@@ -24,7 +24,7 @@ Python 全栈基础
 - **update**
 - **delete**
 
-###ORM
+##ORM
 一般来说，我们如果要对数据库进行操作，需要使用SQL语句。而ORM则是使数据库中的表与Python中的类相对应。
 
 例如我们现在需要做一个餐馆的网页，用来显示每家餐馆的菜单，那么我们就需要一个餐馆的表。
@@ -49,7 +49,7 @@ calss Restaurant:
 ![Image of ORM](/images/database-orm-python.jpg)
 
 
-###使用SQLAlchemy实现CRUD
+##使用SQLAlchemy实现CRUD
 
 **SQLAlchemy**是一个pythonORM库，具体可以看官网的文档。这里只说用到的。
 
@@ -127,7 +127,7 @@ calss Restaurant:
 运行此代码后即可生成sqlite文件。
 
 
-###CRUD操作代码实现
+##CRUD操作代码实现
 
 我们可以直接在python解释器中运行代码
-
+![crud using python](/images/crud-create.jpg)
