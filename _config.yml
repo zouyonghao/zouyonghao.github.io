@@ -1,3 +1,4 @@
 ﻿markdown: rdiscount
 pygments: true
 highlighter: pygments
+github: [Repository metadata]
