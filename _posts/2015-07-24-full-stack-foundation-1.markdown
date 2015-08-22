@@ -51,7 +51,7 @@ calss Restaurant:
 
 ## 使用SQLAlchemy实现CRUD
 
-**SQLAlchemy**是一个pythonORM库，具体可以看官网的文档。这里只说用到的。
+** SQLAlchemy**是一个pythonORM库，具体可以看官网的文档。这里只说用到的。
 
 首先我们需要创建数据库
 
