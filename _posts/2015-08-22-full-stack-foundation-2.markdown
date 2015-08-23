@@ -23,9 +23,9 @@ Python 全栈基础
 
   跟你的地址相似，IP 是你在网络上的地址。 客户端根据URL从 DNS 获取服务端IP
 
-* PORTS
+* Ports
 
-  使用 ports 区分同一个 IP 的不同服务，Web 访问一般使用 80，8080 端口
+  使用 端口 区分同一个 IP 的不同服务，Web 访问一般使用 80，8080 端口
 
 * localhost
 
@@ -90,7 +90,7 @@ if __name__ == '__main__':
 
 1. 定义 main 函数，except KeyboardInterrupt 可以获取到用户输入 Ctrl C 时的异常
 
-2. if __name__ = '__main__' 表示当此由用户执行时，运行下面的语句，此处为 main 函数
+2. ```if __name__ = '__main__'``` 表示当此由用户执行时，运行下面的语句，此处为 main 函数
 
 3. 使用 BaseHTTPServer 提供 HTTP 服务。 函数为 HTTPServer, webserverHandler 为处理 webserverHandler 的类
 
