@@ -90,7 +90,7 @@ if __name__ == '__main__':
 
 1. 定义 main 函数，except KeyboardInterrupt 可以获取到用户输入 Ctrl C 时的异常
 
-2. ```if __name__ = '__main__'``` 表示当此由用户执行时，运行下面的语句，此处为 main 函数
+2. ```if __name__ == '__main__'``` 表示当此由用户执行时，运行下面的语句，此处为 main 函数
 
 3. 使用 BaseHTTPServer 提供 HTTP 服务。 函数为 HTTPServer, webserverHandler 为处理 webserverHandler 的类
 
@@ -155,7 +155,9 @@ output += "</body></html>"
 ```
 
 ## 添加 CRUD
+
 ```python
+
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from database_setup import Base, Restaurant, MenuItem
@@ -167,7 +169,9 @@ session = DBSession()
 ```
 
 ## 列出所有 Restaurant
+
 ```python
+
 if self.path.endswith("/restaurant"):
     self.send_response(200)
     self.send_header('Content-type', 'text/html')
@@ -190,7 +194,9 @@ if self.path.endswith("/restaurant"):
 
 ## 添加 Restaurant
 do_GET 中添加以下代码
+
 ```python
+
 if self.path.endswith("/restaurant/new"):
     self.send_response(200)
     self.send_header('Content-type', 'text/html')
@@ -210,7 +216,9 @@ if self.path.endswith("/restaurant/new"):
 ```
 
 do_POST 中添加以下代码
+
 ```python
+
 if self.path.endswith("/restaurant/new"):
 
     ctype, pdict = cgi.parse_header(self.headers.getheader('content-type'))
@@ -236,6 +244,7 @@ if self.path.endswith("/restaurant/new"):
 do_GET 添加以下代码
 
 ```python
+
 if self.path.endswith("/edit"):
 
     self.send_response(200)
