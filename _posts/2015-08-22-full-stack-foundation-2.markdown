@@ -268,6 +268,7 @@ if self.path.endswith("/edit"):
 ```
 
 do_POST 添加以下代码
+
 ```python
 if self.path.endswith("/edit"):
     restaurant_id = self.path.split("/")[2]
@@ -294,6 +295,7 @@ if self.path.endswith("/edit"):
 ## 删除 Restaurant
 
 do_GET 添加以下代码
+
 ```python
 if self.path.endswith("/delete"):
     self.send_response(200)
@@ -315,6 +317,7 @@ if self.path.endswith("/delete"):
 ```
 
 do_POST 添加以下代码
+
 ```python
 if self.path.endswith("/delete"):
     restaurant_id = self.path.split("/")[2]
