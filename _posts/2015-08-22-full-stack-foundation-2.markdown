@@ -3,8 +3,6 @@ layout: post
 title: Full Stack Foundation Using Python 2
 ---
 
-Python 全栈基础
-===
 
 现在我们有了数据库的支持，现在让我们来创建一个 Web 服务。
 

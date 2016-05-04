@@ -3,8 +3,6 @@ layout: post
 title: Full Stack Foundation Using Python 1
 ---
 
-Python 全栈基础
-===
 <br>
 最近在看Udacity上的 [Full Stack Foundations](https://www.udacity.com/course/viewer#!/c-ud088/)，从基础的CRUD开始介绍使用Python构建Web应用的各项步骤。本系列文章将介绍该课程所讲的内容，也算是我的笔记。
 <br>
