@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: Auto generate subtitle for video or audio
 ---
 
