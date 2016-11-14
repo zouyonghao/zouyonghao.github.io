@@ -28,6 +28,6 @@ coursera-dl -u 用户名 -p 密码 build-a-computer
 
 ![下载过程图](/images/coursera-dl-downloading.jpg) 
 
-下载完成后，默认在用户文件夹下，会按照 Unit 分目录
+下载完成后，默认在~~用户文件夹下~~当前文件夹下，会按照 Unit 分目录
 
 ![下载完成图](/images/coursera-dl-downloaded.jpg)
