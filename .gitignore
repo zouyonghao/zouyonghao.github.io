@@ -3,3 +3,4 @@ _site/
 .DS_Store
 *.swp
 .vscode/
+Bitcron/.sync

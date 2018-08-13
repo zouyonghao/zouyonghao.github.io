@@ -44,7 +44,7 @@ calss Restaurant:
 ```
 
 他们之间的关系可以用下图描述
-![Image of ORM](/images/database-orm-python.jpg)
+![Image of ORM](../images/database-orm-python.jpg)
 
 
 ## 使用SQLAlchemy实现CRUD
@@ -128,4 +128,4 @@ calss Restaurant:
 ## CRUD操作代码实现
 
 我们可以直接在python解释器中运行代码
-![crud using python](/images/crud-create.jpg)
+![crud using python](../images/crud-create.jpg)

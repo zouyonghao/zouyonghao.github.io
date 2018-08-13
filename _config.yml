@@ -1,1 +1,5 @@
-gems: [jekyll-admin]
+plugins: [jekyll-admin, jekyll-relative-links]
+
+relative_links:
+  enabled: true
+  collections: true
