@@ -4,3 +4,4 @@ _site/
 *.swp
 .vscode/
 Bitcron/.sync
+Bitcron/sync_changes.log
