@@ -42,6 +42,7 @@ layout: post
 3. glibc
 
     所有东西都装完了，这时候运行发现如下问题
+    
     ```
     ./mongodb-linux-x86_64-ubuntu1804-4.2.2/bin/mongos: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.25' not found (required by /home/xxx/libcrypto.so.1.1)
     ```
