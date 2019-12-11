@@ -1,29 +1,20 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-	<title>{{page.title}}</title>
-    <link rel="stylesheet" href="/stylesheets/styles.css">
-    <link rel="stylesheet" href="/stylesheets/github-dark.css">
-    <link rel="stylesheet" type="text/css" href="/stylesheets/posts.css">
-    <script src="/javascripts/scale.fix.js"></script>
-
-  </head>
+  {% include head.html %}
   <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="blog">Yong-Hao's Blog</h1> 
-        <br />
-        <p class="view"><a href="https://github.com/zouyonghao">View the Project on GitHub <small>zouyonghao</small></a></p>
-        <ul>
-          <li class="single"><a href="https://github.com/zouyonghao/zouyonghao.github.io">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-	  <h3>{{ page.title }}</h3>
-	  {{ content }}
-	  </section>
+    <div class="page-content">
+      <div class="container">
+        <div class="three columns">
+          {% include header.html %}
+        </div>
+
+        <div class="nine columns" style="z-index:100;">
+          <div class="wrapper">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+      {% include footer.html %} 
     </div>
-    
   </body>
 </html>
