@@ -3,5 +3,4 @@ _site/
 .DS_Store
 *.swp
 .vscode/
-Bitcron/.sync
-Bitcron/sync_changes.log
+.jekyll-metadata

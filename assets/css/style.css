@@ -1,0 +1,84 @@
+/*------------------------------------
+* sext
+*
+* @author linghua.zhang@me.com
+* @link http://lhzhang.com/
+* @update 2011-12-20
+* 
+* |/ | (~ (~
+* |\.|._)._)
+* --------------------------------- */
+
+body{
+	font-size:20px;
+	line-height: 2;
+	word-spacing:1px;
+	margin-left:auto;
+	margin-right:auto;
+	/*font-family:"Galdeano","Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;*/
+	/*font-family:"Times New Roman", Times, "Microsoft YaHei", serif;*/
+	font-family:Georgia, "Microsoft YaHei", serif;
+	color:#000000;
+	background-color:#ffffff;
+}
+*{padding:0;margin: 0;border:none;outline:none;}
+a{color:#4682b4;text-decoration:none;}
+a:hover{color:#4682b4;text-decoration:underline;}
+hr{margin:.7em 0;border-top:1px dashed #d0d0d0;border-bottom:1px dashed #f9f9f9;}
+p{padding:.5em 0;}
+li{padding:.2em 0;}
+ol,ul{list-style-position:inside;}
+ol ul, ul ol, ul ul, ol ol {margin-left:1em;}
+pre code{margin:1em 0;font-size:13px;line-height:1.6;display:block;overflow:auto;}
+blockquote{display:block;text-align:justify;border-left:4px solid #eeeeee;}
+blockquote{margin:1em 0em;padding-left:1.5em;}
+blockquote p{margin:0;padding:.5em 0;}
+#container{width:1000px;margin:2em auto;display:block;padding:0 2em;}
+.content{font-size:15px;line-height:24px;}
+.content h1{padding:.5em 0;}
+.content img{max-width:100%;display:block;margin:4px auto;-webkit-box-shadow:#999 1px 1px 4px;-moz-box-shadow:#999 1px 1px 4px;box-shadow:#999 1px 1px 4px;}
+#tag_cloud{margin-bottom: 1em;}
+#tag_cloud a:hover{color:#333333 !important;text-decoration:none;}
+.listing-item,.listing-seperator{list-style-type:none;}
+.listing-item a{
+	padding:.2em 1em;
+
+}
+
+h1{font-family:Georgia,"Microsoft YaHei",sans-serif;font-size:1.6em;color:#000;}
+h2{font-family:Georgia,"Microsoft YaHei",sans-serif;font-size:1.4em;color:#111;margin: .5em 0;}
+h3{font-family:Georgia,"Microsoft YaHei",sans-serif;font-size:1.2em;color:#222;}
+h4{font-family:Georgia,"Microsoft YaHei",sans-serif;font-size:1em;color:#333;}
+pre,code{font-family:Menlo,"Andale Mono",Consolas,"Courier New",Monaco,monospace;font-size:13px;}
+code{background-color:#D0D0D0;}
+embed,object,iframe{display:block;margin:4px auto;}
+.gist{font-size: 12px;line-height:1.6;}
+
+.label {
+font-size:11.25px;
+font-weight:700;
+color:#fff;
+text-transform:uppercase;
+background-color:#999;
+-webkit-border-radius:3px;
+-moz-border-radius:3px;
+border-radius:3px;
+padding:1px 3px 2px;
+}
+
+.label-important {
+background-color:#b94a48;
+}
+
+.label-warning {
+background-color:#f89406;
+}
+
+.label-success {
+background-color:#468847;
+}
+
+.label-info {
+background-color:#3a87ad;
+}
+
