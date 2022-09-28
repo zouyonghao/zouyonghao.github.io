@@ -30,7 +30,7 @@ Here I list some of bugs found by my fuzzing tools for distributed systems and d
     * [Fix heap buffer overflow](https://github.com/RedisLabs/redisraft/pull/165)
     * [Assertion `cache->start_idx + cache->len == idx' failed](https://github.com/RedisLabs/redisraft/issues/189)
     * [Radis raft panic](https://github.com/RedisLabs/redisraft/issues/107)
-    * [Assertion `(c->flags & REDIS_SUBSCRIBED || c->flags & REDIS_MONITORING)' failed.](https://github.com/RedisLabs/redisraft/issues/104)
+    * [Assertion failed.](https://github.com/RedisLabs/redisraft/issues/104)
 
 * RethinkDB
     * [Memory bugs reported by ASan](https://github.com/rethinkdb/rethinkdb/issues/6956)
