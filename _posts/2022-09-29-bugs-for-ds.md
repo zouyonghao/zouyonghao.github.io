@@ -3,7 +3,7 @@ title: Bugs found for distributed systems
 layout: post
 ---
 
-Here I list some of bugs found by my fuzzing tools for distributed systems and databases.
+Here I list some bugs found by my fuzzing tools for distributed systems and databases.
 
 * Braft/brpc
     * [memory leak](https://github.com/baidu/braft/issues/268)
