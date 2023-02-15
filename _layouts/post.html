@@ -2,11 +2,12 @@
 
 <head>
     <meta name="author" content="Yong-Hao Zou">
-    <title>{{ title }}</title>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+    <link rel="stylesheet" href="../../../assets/css/highlight.css">
     <style>
         body {
             margin-left: 100px;
-            font-size: 15px;
             line-height: 2;
             word-spacing: 1px;
             margin-right: 100px;
@@ -17,9 +18,11 @@
             background-color: #ffffff;
         }
     </style>
+    
 </head>
 
 <body>
+    <h1>{{ page.title }}</h1>
     {{ content }}
 </body>
 
