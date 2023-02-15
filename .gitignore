@@ -4,3 +4,4 @@ _site/
 *.swp
 .vscode/
 .jekyll-metadata
+Gemfile.lock
