@@ -17,7 +17,7 @@ body{
 	margin-right:auto;
 	/*font-family:"Galdeano","Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;*/
 	/*font-family:"Times New Roman", Times, "Microsoft YaHei", serif;*/
-	font-family:Georgia, "Microsoft YaHei", serif;
+	font-family:Consolas, Georgia, "Microsoft YaHei", serif;
 	color:#000000;
 	background-color:#ffffff;
 }
@@ -45,10 +45,10 @@ blockquote p{margin:0;padding:.5em 0;}
 
 }
 
-h1{font-family:Georgia,"Microsoft YaHei",sans-serif;font-size:1.6em;color:#000;}
-h2{font-family:Georgia,"Microsoft YaHei",sans-serif;font-size:1.4em;color:#111;margin: .5em 0;}
-h3{font-family:Georgia,"Microsoft YaHei",sans-serif;font-size:1.2em;color:#222;}
-h4{font-family:Georgia,"Microsoft YaHei",sans-serif;font-size:1em;color:#333;}
+h1{font-family:Consolas, Georgia,"Microsoft YaHei",sans-serif;font-size:1.6em;color:#000;}
+h2{font-family:Consolas, Georgia,"Microsoft YaHei",sans-serif;font-size:1.4em;color:#111;margin: .5em 0;}
+h3{font-family:Consolas, Georgia,"Microsoft YaHei",sans-serif;font-size:1.2em;color:#222;}
+h4{font-family:Consolas, Georgia,"Microsoft YaHei",sans-serif;font-size:1em;color:#333;}
 pre,code{font-family:Menlo,"Andale Mono",Consolas,"Courier New",Monaco,monospace;font-size:13px;}
 code{background-color:#D0D0D0;}
 embed,object,iframe{display:block;margin:4px auto;}
