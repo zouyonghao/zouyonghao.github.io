@@ -207,3 +207,11 @@ iframe {
 .label-info {
 	background-color: #3a87ad;
 }
+
+.author {
+	text-indent: 20px;
+}
+
+.conference {
+	text-indent: 20px;
+}
