@@ -1,5 +1,5 @@
 ---
-title: Bugs found by TCP-Fuzz (opensource projects only, update: 2025)
+title: Bugs found by TCP-Fuzz (opensource projects only, update by 2025)
 layout: post
 ---
 
