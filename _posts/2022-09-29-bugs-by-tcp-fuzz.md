@@ -1,5 +1,5 @@
 ---
-title: Bugs found by TCP-Fuzz (opensource projects only)
+title: Bugs found by TCP-Fuzz (opensource projects only, update: 2025)
 layout: post
 ---
 
@@ -26,3 +26,6 @@ Here I list some of bugs found by TCP-Fuzz for opensource projects.
     * [The ioctl of socket fd should return -1 after listen to avoid misusing.](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=250366)
     * [Should we reject the packet with timestamp if no timestamp in SYN and SYN_ACK?](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=250499)
     * [Should we reject packets with the nonmonotonic timestamp?](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=252263)
+
+* Linux
+    * [RFC 7323 violation](https://lore.kernel.org/netdev/20250224110654.707639-1-edumazet@google.com/)
