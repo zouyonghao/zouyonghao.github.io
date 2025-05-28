@@ -28,4 +28,4 @@ Here I list some of bugs found by TCP-Fuzz for opensource projects.
     * [Should we reject packets with the nonmonotonic timestamp?](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=252263)
 
 * Linux
-    * [RFC 7323 violation](https://lore.kernel.org/netdev/20250224110654.707639-1-edumazet@google.com/)
+    * [RFC 7323 violation](https://lore.kernel.org/netdev/CADVnQykD8i4ArpSZaPKaoNxLJ2if2ts9m4As+=Jvdkrgx1qMHw@mail.gmail.com/T/)
