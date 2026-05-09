@@ -208,10 +208,96 @@ iframe {
 	background-color: #3a87ad;
 }
 
-.author {
+.publication-list {
+	list-style: none;
+	margin: .4em 0 1em;
+}
+
+.publication-item {
+	display: grid;
+	grid-template-columns: 58px 1fr;
+	column-gap: 16px;
+	padding: .7em 0;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.publication-item:last-child {
+	border-bottom: none;
+}
+
+.publication-year {
+	color: #666666;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 20px;
+	padding-top: 2px;
+}
+
+.publication-body p {
+	padding: 0;
+}
+
+.publication-title {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 22px;
+}
+
+.publication-authors {
+	color: #333333;
+	font-size: 14px;
+	line-height: 21px;
+	margin-top: 4px;
+}
+
+.publication-venue {
+	color: #555555;
+	font-size: 14px;
+	line-height: 21px;
+	margin-top: 3px;
+}
+
+.publication-links {
+	font-size: 13px;
+	line-height: 20px;
+	margin-top: 5px;
+}
+
+.publication-links a {
+	display: inline-block;
+	margin-right: 12px;
+}
+
+.publication-note {
+	background-color: #f4f4f4;
+	border: 1px solid #dddddd;
+	border-radius: 3px;
+	color: #333333;
+	display: inline-block;
+	font-size: 12px;
+	line-height: 18px;
+	margin-left: 6px;
+	padding: 0 5px;
+}
+
+.author,
+.conference {
 	text-indent: 20px;
 }
 
-.conference {
-	text-indent: 20px;
+@media (max-width: 760px) {
+	#container {
+		width: auto;
+		margin: 1em auto;
+		padding: 0 1em;
+	}
+
+	.publication-item {
+		grid-template-columns: 1fr;
+		row-gap: 2px;
+	}
+
+	.publication-year {
+		padding-top: 0;
+	}
 }
